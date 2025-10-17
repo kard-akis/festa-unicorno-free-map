@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Festa dell'Unicorno - Vinci (FI) - Entrate Gratis</name>
+	<!--
+	<atom:author>
+		<atom:name>kardakis</atom:name>
+	</atom:author> 
+	-->
+    <description/>
+    <Style id="icon-1498-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1498-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1498-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1498-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1498-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Percorso Facile</name>
+      <Placemark>
+        <name>Parcheggio Via Ripalta</name>
+        <description>Parcheggia qui e vai a piedi.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927329,43.778743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stadio</name>
+        <description>Scavalca e raggiungi Via Val di Sole.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927099,43.778721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Val di Sole</name>
+        <description>I volontari VAB dello svincolo di Via Val Gardena  potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.925688,43.778645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via I Maggio</name>
+        <description>I volontari VAB del Parcheggio di Via Girolamo Calvi potrebbero vederti. Muoviti velocemente e sali le rampe.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.924708,43.779201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via XXV Aprile</name>
+        <description>Alcuni volontari VAB di Via dei Martiri potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.924594,43.781531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recinzione</name>
+        <description>Oltrepassa la recinzione e segui fino in fondo il filare della vigna.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.924893,43.781501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto</name>
+        <description>I volontari VAB del Palco e di Piazza Garibaldi potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.92511,43.781988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Girolamo Calvi</name>
+        <description>Fai attenzione, sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926291,43.782529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Girolamo Calvi</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.926654,43.783021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parcheggio Festa dell'Unicorno</name>
+        <description>Parcheggia e dirigiti verso questa zona. Non dare nell'occhio</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.933588,43.779173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Campagnana</name>
+        <description>Fai attenzione, sei vicino ad abitazioni private.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.934838,43.782073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via San Lorenzo</name>
+        <description>I volontari VAB alla biglietteria e al parcheggio di Via Girolamo Calvi potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.931534,43.782094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponticello di Via San Lorenzo</name>
+        <description>Sei fuori dalla visuale dei volontari VAB della biglietteria e del parcheggio di Via Girolamo Calvi.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.932213,43.783643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Piagge</name>
+        <description>I volontari VAB alla biglietteria e al parcheggio di Via Girolamo Calvi potrebbero vederti. Sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.931055,43.783229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Piagge</name>
+        <description>Sei fuori dalla visuale dei volontari VAB della biglietteria e del parcheggio di Via Girolamo Calvi. Sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.929695,43.782686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Piagge</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.928025,43.782347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Lamporecchiana</name>
+        <description>Parcheggia nelle vicinanze e imbocca la strada.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.921851,43.787472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Montalbano</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.926549,43.787374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza Leonardo da Vinci</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.926419,43.787045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parcheggio Via Ripalta > Entrata Via Girolamo Calvi</name>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.927329,43.778743,0
+            10.927099,43.778721,0
+            10.926822,43.77853,0
+            10.926539,43.778446,0
+            10.926219,43.77846,0
+            10.925688,43.778645,0
+            10.924708,43.779201,0
+            10.924353,43.77969,0
+            10.924272,43.78006,0
+            10.924379,43.781089,0
+            10.924594,43.781531,0
+            10.924893,43.781501,0
+            10.92511,43.781988,0
+            10.925898,43.782036,0
+            10.926291,43.782529,0
+            10.92647,43.78269,0
+            10.926602,43.782576,0
+            10.926858,43.782672,0
+            10.926654,43.783021,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Parcheggio Festa dell'Unicorno > Entrata Via Piagge</name>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.933588,43.779173,0
+            10.934703,43.779748,0
+            10.934259,43.780265,0
+            10.934544,43.780985,0
+            10.934839,43.78082,0
+            10.93493,43.78085,0
+            10.934737,43.781165,0
+            10.935326,43.781558,0
+            10.934838,43.782073,0
+            10.934395,43.78191,0
+            10.93377,43.781577,0
+            10.933423,43.781214,0
+            10.933179,43.78086,0
+            10.933039,43.78076,0
+            10.932771,43.780752,0
+            10.932138,43.780829,0
+            10.932309,43.781408,0
+            10.932458,43.781864,0
+            10.932325,43.781978,0
+            10.931534,43.782094,0
+            10.931552,43.782758,0
+            10.932231,43.783409,0
+            10.932309,43.783617,0
+            10.932213,43.783643,0
+            10.931666,43.783024,0
+            10.93155,43.783025,0
+            10.931199,43.783225,0
+            10.931055,43.783229,0
+            10.929912,43.782635,0
+            10.929695,43.782686,0
+            10.92896,43.783222,0
+            10.928531,43.783317,0
+            10.928025,43.782347,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Via Lamporecchiana > Entrata Via Montalbano</name>
+        <styleUrl>#line-7CB342-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.921851,43.787472,0
+            10.922071,43.787259,0
+            10.922134,43.787233,0
+            10.922236,43.787222,0
+            10.922931,43.787173,0
+            10.923054,43.787175,0
+            10.923147,43.787181,0
+            10.923612,43.787255,0
+            10.924022,43.78734,0
+            10.924098,43.787365,0
+            10.924144,43.787386,0
+            10.924535,43.787566,0
+            10.924631,43.787605,0
+            10.924672,43.787619,0
+            10.924798,43.787653,0
+            10.924859,43.787661,0
+            10.924903,43.787667,0
+            10.925001,43.787675,0
+            10.925122,43.787667,0
+            10.92524,43.787669,0
+            10.925338,43.787671,0
+            10.925404,43.78769,0
+            10.925483,43.787714,0
+            10.925623,43.787852,0
+            10.925683,43.787882,0
+            10.925731,43.78789,0
+            10.925857,43.787899,0
+            10.925988,43.787884,0
+            10.926102,43.787863,0
+            10.926011,43.787351,0
+            10.926274,43.787411,0
+            10.926549,43.787374,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>* > Piazza Leonardo da Vinci</name>
+        <styleUrl>#line-7CB342-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.926011,43.787351,0
+            10.926049,43.787117,0
+            10.926419,43.787045,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Percorso Medio</name>
+      <Placemark>
+        <name>Via Piagge</name>
+        <description>Sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.928399,43.783749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stoccaggio materiale edile di Via Piagge</name>
+        <description>Sei vicino ad abitazioni private. Attraversa la boscaglia e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927541,43.783826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle su Parco della Rimembranza</name>
+        <description>Muoviti più velocemente possibile stando basso. I volontari VAB e altre persone potrebbero vederti.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927128,43.783977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Misericordia di Vinci</name>
+        <description>Muoviti più velocemente possibile stando basso. I volontari VAB e della Misericordia di Vinci potrebbero vederti.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926815,43.784243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via del Fontino</name>
+        <description>Sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926603,43.784634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via del Fontino</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.925547,43.784527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frantoio del Ferrale</name>
+        <description>Parcheggia e vai a piedi.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.929434,43.795531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Montalbano</name>
+        <description>Sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.930817,43.794654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Belvedere</name>
+        <description>Sei vicino ad abitazioni private. Costeggia il bosco e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.932151,43.79349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco Aquaria</name>
+        <description>Sei vicino ad abitazioni private. Zona da controllare. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.930848,43.791719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Gremigneto</name>
+        <description>Sei vicino ad abitazioni private. Fa attenzione alla strada e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.930959,43.790733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Gremigneto</name>
+        <description>Sei vicino ad abitazioni private. Nonostante il  muro laterale, sii cauto e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.929351,43.789483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zona La Doccia</name>
+        <description>I volontari VAB, della Festa dell' Unicorno e alcune persone potrebbero vederti. Sii cauto e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.928803,43.788998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Giuseppe Rossi</name>
+        <description>I volontari VAB, della Festa dell' Unicorno e alcune persone potrebbero vederti. Zona ad alto rischio. Sali i terrazzamenti degli ulivi e sii cauto.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.928551,43.788655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Giuseppe Rossi</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.928359,43.788674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Piagge > Entrata Via del Fortino</name>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.928531,43.783317,0
+            10.928399,43.783749,0
+            10.927741,43.783679,0
+            10.927675,43.78363,0
+            10.927541,43.783826,0
+            10.927501,43.784006,0
+            10.927128,43.783977,0
+            10.926889,43.783995,0
+            10.926815,43.784243,0
+            10.926603,43.784634,0
+            10.926576,43.784824,0
+            10.925935,43.784589,0
+            10.925547,43.784527,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Frantoio del Ferrante > Entrata Via Giuseppe Rossi</name>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.929434,43.795531,0
+            10.930583,43.795438,0
+            10.930724,43.79534,0
+            10.930817,43.794654,0
+            10.931326,43.793995,0
+            10.932257,43.793573,0
+            10.932151,43.79349,0
+            10.93185,43.793257,0
+            10.93125,43.792341,0
+            10.931148,43.792244,0
+            10.931017,43.7918,0
+            10.930848,43.791719,0
+            10.930454,43.79101,0
+            10.930959,43.790733,0
+            10.930418,43.789979,0
+            10.929351,43.789483,0
+            10.929091,43.789127,0
+            10.928803,43.788998,0
+            10.928551,43.788655,0
+            10.928359,43.788674,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Percorso Difficile</name>
+      <Placemark>
+        <name>Via Girolamo Calvi</name>
+        <description>Fai attenzione, sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926143,43.782704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco Giochi</name>
+        <description>I volontari VAB e della Festa dell'Unicorno potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.925836,43.782976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Bruno Buozzi</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.925602,43.783016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Mario Cermenati</name>
+        <description>Fai attenzione, sei vicino ad abitazioni private. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.924605,43.782697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palco Festa dell'Unicorno</name>
+        <description>Sei vicino agli stand e ai volontari VAB e della Festa dell'Unicorno. Sii cauto e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.925087,43.78303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Palco</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.925166,43.783165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Mario Cermenati</name>
+        <description>I volontari VAB e della Festa dell'Unicorno zona palco potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.924774,43.782695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Mario Cermenati</name>
+        <description>Raggiungi la strada e fai attenzione. I volontari VAB, della Festa dell'Unicorno e i Softgunners potrebbero vederti. Sii cauto e muoviti velocemente. Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.924336,43.783081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco della Rimembranza</name>
+        <description>I volontari VAB e altre persone potrebbero vederti. Muoviti velocemente. E' arduo.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926537,43.783978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco della Rimembranza</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.926224,43.783891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Misericordia di Vinci</name>
+        <description>I volontari VAB e della Misericordia di Vinci potrebbero vederti. Usa la scala per salire sul tetto e proseguire. Sii cauto e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926481,43.784114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco della Rimembranza</name>
+        <description>I volontari VAB , della Misericordia di Vinci e altre persone potrebbero vederti. Muoviti molto velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.92629,43.784059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle di Parco della Rimembranza</name>
+        <description>I volontari VAB, della Misericordia di Vinci e altre persone potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.92729,43.784013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle dietro Crédit Agricole</name>
+        <description>Sei fuori dalla visuale dei volontari VAB e della Misericordia di Vinci. Alcune persone potrebbero vederti. Muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927193,43.784999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Renato Fucini</name>
+        <description>I volontari VAB e alcune persone potrebbero vederti. Zona ad alto rischio. Sii cauto e muoviti altrettanto velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.927099,43.786327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Renato Fucini</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.927027,43.786365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle di Via Montalbano</name>
+        <description>Sei visibile dalle toilettes e dalla Chiesa. Sii cauto e muoviti velocemente.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926329,43.78816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle di Via Montalbano</name>
+        <description>Sei visibile dalle toilettes e dalla Chiesa. Sii cauto e scala i terrazzamenti degli ulivi.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.926702,43.788407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Montalbano</name>
+        <description>I volontari VAB, della Festa dell' Unicorno e alcune persone potrebbero vederti. Zona ad alto rischio. Sii cauto.</description>
+        <styleUrl>#icon-1498-000000</styleUrl>
+        <Point>
+          <coordinates>
+            10.92716,43.788303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrata Via Montalbano</name>
+        <description>Sei entrato alla Festa dell'Unicorno.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            10.927257,43.788239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Girolamo Calvi > Entrata Via Bruno Buozzi</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.926292,43.782535,0
+            10.926143,43.782704,0
+            10.925851,43.78279,0
+            10.925836,43.782976,0
+            10.925602,43.783016,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto > Entrata Palco</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.92511,43.781988,0
+            10.924605,43.782697,0
+            10.925087,43.78303,0
+            10.925166,43.783165,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Via Mario Cermenati > Entrata Via Mario Cermenati</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.924605,43.782697,0
+            10.924774,43.782695,0
+            10.924781,43.782951,0
+            10.924336,43.783081,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Valle su Parco della Rimembranza > Parco della Rimembranza</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.927128,43.783977,0
+            10.926875,43.783964,0
+            10.926636,43.783888,0
+            10.926537,43.783978,0
+            10.926224,43.783891,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Parco della Rimembranza > Parco della Rimembranza</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.926537,43.783978,0
+            10.92657,43.784032,0
+            10.926481,43.784114,0
+            10.92629,43.784059,0
+            10.926253,43.784022,0
+            10.926224,43.783891,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Valle di Parco della Rimembranza > Entrata Via Renato Fucini</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.927293,43.783991,0
+            10.92729,43.784013,0
+            10.927193,43.784999,0
+            10.926874,43.785276,0
+            10.926921,43.785623,0
+            10.926865,43.78586,0
+            10.927099,43.786327,0
+            10.927027,43.786365,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>* > Entrata Via Montalbano</name>
+        <styleUrl>#line-A52714-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.926102,43.787863,0
+            10.926206,43.788042,0
+            10.926262,43.788113,0
+            10.926329,43.78816,0
+            10.926503,43.788264,0
+            10.926573,43.788314,0
+            10.926681,43.788394,0
+            10.926702,43.788407,0
+            10.92716,43.788303,0
+            10.927257,43.788239,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
