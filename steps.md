@@ -4,9 +4,12 @@ Per poterla importare, segui il "_Passaggio 2: importa le informazioni nella map
 Se risulta un dead link, visita il [web archive](https://web.archive.org/web/20250000000000*/https://support.google.com/mymaps/answer/3024836) per visualizzare le procedure.
 
 I percorsi descritti hanno colori per __grado di difficoltà__: 
-    - ![Rosso](https://placehold.co/15x15/ff0000/ff0000.png), il più impegnativo.
-    - ![Giallo](https://placehold.co/15x15/ffff00/ffff00.png), un po' più complesso.
-    - ![Verde](https://placehold.co/15x15/008000/008000.png), più semplice da percorrere.
+    
+- ![rosso](https://placehold.co/15x15/ff0000/ff0000.png), il più impegnativo.
+    
+- ![giallo](https://placehold.co/15x15/ffff00/ffff00.png), un po' più complesso.
+    
+- ![verde](https://placehold.co/15x15/008000/008000.png), più semplice da percorrere.
 
 Punti specifici sono contrassegnati da flag informativi con consigli di sicurezza.
 
